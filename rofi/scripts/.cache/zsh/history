@@ -1,0 +1,19 @@
+: 1718017731:0;z dwm
+: 1718017480:0;ls
+: 1718017487:0;mk scripts
+: 1718017490:0;z scripts/
+: 1718017492:0;ls
+: 1718017519:0;tch rofi-power-menu
+: 1718017521:78;n rofi-power-menu 
+: 1718017599:32;n rofi-power-menu
+: 1718017652:9;rofi -show power-menu -modi power-menu:./rofi-power-menu
+: 1718017678:0;chmod u+x  rofi-power-menu
+: 1718017681:7;rofi -show power-menu -modi power-menu:./rofi-power-menu
+: 1718017715:2;rofi -show power-menu -modi power-menu:~/.config/rofi/scripts/rofi-power-menu
+: 1718017873:0;rofi -show power-menu -modi power-menu:~/.config/rofi/scripts/rofi-power-menu
+: 1718017926:0;n rofi-power-menu 
+: 1718018005:0;nrebuild
+: 1718018042:0;rofi -show power-menu -modi power-menu:~/.config/rofi/scripts/rofi-power-menu
+: 1718018666:0;..
+: 1718984506:0;ls
+: 1718984510:0;..

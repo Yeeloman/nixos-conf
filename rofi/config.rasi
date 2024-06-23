@@ -1,0 +1,15 @@
+configuration {
+  display-drun: "Apps:";
+  display-window: "Win:";
+  drun-display-format: "{icon} - {name}";
+  font: "FiraCode Nerd Font bold 12";
+  modi: "run,drun,window";
+  show-icons: true;
+  timeout {
+    delay: 15;
+    action: "kb-cancel";
+  }
+}
+
+@theme "./joint.rasi"
+

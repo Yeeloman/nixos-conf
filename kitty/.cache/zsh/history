@@ -1,0 +1,55 @@
+: 1718982317:0;kitty +list-fonts --psnames | grep Fira
+: 1718981768:0;ls
+: 1718981881:699;n kitty.conf
+: 1718982583:0;sn kitty.conf
+: 1718982727:0;ls
+: 1718982772:0;cat /nix/store/dgw8ajgxcyn1i8cc8m25haprj574llqz-kitty-themes-0-unstable-2024-05-28/share/kitty-themes/themes/Catppuccin-Mocha.conf > first-theme.conf\
+
+: 1718982773:0;ls
+: 1718982775:0;fg
+: 1718985294:0;ls
+: 1718985317:0;mk themes
+: 1718985326:0;mv averageJointEnjoyer.conf Catppuccin-Mocha.conf themes
+: 1718985326:0;ls
+: 1718985350:0;n kitty.conf kitty.conf.sample
+: 1718986110:0;n themes/averageJointEnjoyer.conf
+: 1718986638:0;fg
+: 1719008695:0;n themes/averageJointEnjoyer.conf
+: 1719012612:0;ls
+: 1719012633:0;ls kitty.conf.backup
+: 1719012638:0;cat kitty.conf
+: 1719012648:0;rm kitty.conf
+: 1719012660:0;mv kitty.conf.backup kitty.conf
+: 1719012809:0;k
+: 1719012810:0;ls
+: 1719012861:0;ls -ka
+: 1719012863:0;ls -la
+: 1719012991:0;ls
+: 1719012998:0;rm kitty.conf
+: 1719013006:0;mv kitty.conf.backup kitty.conf
+: 1719013011:0;nrebuild
+: 1719013052:0;nclean
+: 1719013334:0;z Wallpapers
+: 1719013335:0;ls
+: 1719013344:1;convert joint.jpg joint.png
+: 1719013346:0;ls
+: 1719013372:0;mv joint.png ~/.config/kitty/themes
+: 1719013375:0;z kitty
+: 1719013376:0;ks
+: 1719013377:0;ls
+: 1719013379:0;ls themes
+: 1719013389:0;n themes/averageJointEnjoyer.conf
+: 1719013737:0;ls
+: 1719013739:0;fg
+: 1719013859:0;ls
+: 1719013982:0;ls
+: 1719013987:0;n options.conf
+: 1719014578:0;ls
+: 1719068073:0;ls
+: 1719068078:0;n themes/averageJointEnjoyer.conf
+: 1719070160:0;n keyMaps.conf
+: 1719102589:0;ls
+: 1719102597:0;n keyMaps.conf
+: 1719102641:0;z
+: 1719112984:0;n kitty.conf.sample
+: 1719113528:0;z

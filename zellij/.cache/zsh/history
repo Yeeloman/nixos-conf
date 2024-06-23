@@ -1,0 +1,50 @@
+fg
+ls
+n config.kdl
+exit
+ls
+mv config.kdl config.kdl.bak
+ls
+tch config.kdl
+n config.kdl
+fg
+src
+exit
+: 1719069643:0;n config.kdl
+: 1719067498:0;mk zellij
+: 1719067500:0;ls
+: 1719067503:0;z zellij
+: 1719067527:0;zellij setup --dump-config > ~/.config/zellij/config.kdl
+: 1719067528:0;ls
+: 1719067530:419;n config.kdl
+: 1719067954:2180;n config.kdl.bak
+: 1719111765:0;ls
+: 1719111768:0;n config.kdl
+: 1719112852:0;fish
+: 1719112863:0;nix-shell -p fish
+: 1719112978:0;z kitt
+: 1719113888:23;sn core-packages.nix
+: 1719113912:371;nix-shell -p zsh-autopair
+: 1719114289:6;sn core-packages.nix
+: 1719114296:6;fg
+: 1719114305:3;nrebuild
+: 1719114320:5;sn home-manager.nix
+: 1719114326:43;nrebuild
+: 1719114384:328;sn configuration.nix
+: 1719114715:8;nrebuild
+: 1719114746:40;fg
+: 1719114788:23;nrebuild
+: 1719115062:215;sn home-manager.nix
+: 1719115280:25;nrebuild
+: 1719115667:0;z zellij
+: 1719115668:0;l
+: 1719115671:0;sn config.kdl
+: 1719115762:0;ls
+: 1719115766:0;n config.kdl
+: 1719115781:0;fg
+: 1719115836:0;z nix
+: 1719115853:0;ls
+: 1719115861:0;rm config.kdl.bak
+: 1719115865:0;n config.kdl
+: 1719116980:0;jump
+: 1719117310:0;z nix

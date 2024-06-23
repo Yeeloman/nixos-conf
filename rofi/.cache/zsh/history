@@ -1,0 +1,68 @@
+: 1718022785:0;sudo systemctl restart lightdm
+: 1718022799:0;nrebuild
+: 1718023275:0;rm /root/.local/state/nvim/swap//%nix%store%wp1ppsypj36hz26l8jnznl0xq5sy9fpg-lightdm.conf.s\
+wp
+: 1718023282:0;rm /root/.local/state/nvim/swap//%nix%store%wp1ppsypj36hz26l8jnznl0xq5sy9fpg-lightdm.conf.swp
+: 1718023839:0;nix-shell -p ly
+: 1718023953:0;z nixos
+: 1718025968:0;ls
+: 1718025975:0;n scripts/rofi-power-menu 
+: 1718026019:0;loginctl lock-session ${XDG_SESSION_ID-}
+: 1718026025:0;echo ${XDG_SESSION_ID-}
+: 1718026174:0;n scripts/rofi-power-menu 
+: 1718061140:0;z lightdm
+: 1718151690:0;ls
+: 1718151696:0;n config.rasi 
+: 1718152240:0;z mySc
+: 1718189928:0;z github
+: 1718201498:0;ls
+: 1718201506:0;n joint.rasi 
+: 1718201526:0;ls scripts/
+: 1718201536:0;ls
+: 1718201613:0;zip --help
+: 1718201621:0;nix-shell -p zip
+: 1718201673:0;zip -r rofiConfig.zip *
+: 1718201676:0;nix-shell -p zip
+: 1718202210:0;ls
+: 1718202214:0;n joint.rasi 
+: 1718202227:0;n config.rasi 
+: 1718202376:0;z .bin
+: 1718805815:0;ls
+: 1718805822:0;z slstatus/
+: 1718805822:0;ms
+: 1718805824:0;l
+: 1718805829:6;n config.def.h 
+: 1718805838:0;z rofi
+: 1718805839:0;ls
+: 1718805847:0;n joint.rasi 
+: 1718805884:0;ls
+: 1718805890:0;ls scripts/
+: 1718805899:0;ls ~/Downloads/
+: 1718805914:0;ls ~
+: 1718805923:0;ls ~/Pictures/
+: 1718805926:0;ls ~/Pictures/Wallpapers/
+: 1718805956:0;cp ~/Pictures/Wallpapers/joint.jpg .
+: 1718805957:0;ls
+: 1718805962:0;fg
+: 1718822635:0;z dwm
+: 1718984502:0;ls
+: 1718984505:0;z scripts
+: 1718984511:0;ls
+: 1718984514:0;z
+: 1718984551:0;ls
+: 1718984558:0;z rofi-web-search
+: 1718984559:0;ls
+: 1718984563:2;n config.json
+: 1718984567:0;..
+: 1718984568:0;ls
+: 1718984578:0;z rofi
+: 1718984579:0;ms
+: 1718984580:0;ls
+: 1718984587:0;ls scripts
+: 1718984588:0;ls
+: 1718984593:0;ls scripts
+: 1718984604:0;z dwm
+: 1719156775:0;z rofi
+: 1719156776:0;l
+: 1719156787:0;sn config.rasi
+: 1719156796:0;ll

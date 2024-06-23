@@ -1,0 +1,52 @@
+#!/usr/bin/env bash
+
+# List all existing Zellij sessions
+sessions=$(zellij list-sessions)
+
+# Function to display available sessions and prompt user action
+display_menu() {
+	echo "Available Zellij Sessions:"
+	echo "$sessions"
+	echo "---------------------------"
+	echo "Attach to an existing session (a)"
+	echo "Create a new session (n)"
+	echo "---------------------------"
+	echo -n "Choose an option (a or n): "
+	read option
+}
+
+# Function to attach to an existing session
+attach_session() {
+	echo "Available Zellij Sessions:"
+	echo "$sessions"
+	echo "---------------------------"
+	echo -n "Enter the session name to attach to: "
+	read session_name
+	zellij attach $session_name
+}
+
+# Function to create a new session
+create_session() {
+	echo -n "Enter a new session name: "
+	read session_name
+	zellij attach --create $session_name
+}
+
+# Main script logic
+if [[ -n "$ZELLIJ" ]]; then
+	# Do nothing if already inside a Zellij session
+else
+	display_menu
+
+	case $option in
+	"a")
+		attach_session
+		;;
+	"n")
+		create_session
+		;;
+	*)
+		echo "Invalid option, please choose 1 or 2."
+		;;
+	esac
+fi

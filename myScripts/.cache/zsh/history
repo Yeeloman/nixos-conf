@@ -1,0 +1,101 @@
+z nixos
+ls
+tch roficlip
+n roficlip 
+chmod u+x roficlip 
+./roficlip 
+fg
+n roficlip 
+fg
+./roficlip
+./roficlip 
+fg
+./roficlip
+greenclip deamon &
+./roficlip
+rofi -modi "clipboard:greenclip print" -show clipboard -run-command '{cmd}'
+ls
+which zsh
+wich sh
+zsh -c
+zsh -c ls
+z dwm
+ls
+n gitall
+chmod u+x gitall 
+z nixos
+ls
+n home-manager.nix 
+sn home-manager.nix 
+nrebuild
+fg
+sn home-manager.nix 
+nrebuild
+z myScripts
+ls
+n gclone 
+z down
+ls
+n gitall
+z -
+ls
+n gitall
+z -
+l
+tch zellijSession
+n zellijSession
+chmod +x zellijSession
+./zellijSession
+ls
+./zellijSession
+\:q
+ls
+n zellijSession
+fg
+./zellijSession
+exit
+zellij ls
+zellij ka
+zellij da
+zellij ls
+n zellijSession
+fg
+n zellijSession
+echo $ZELLIJ
+fg
+n zellijSession
+exit
+: 1719153120:0;ls
+: 1719153124:0;n zellijSession
+: 1719153303:0;z
+: 1719155822:0;ls
+: 1719155837:0;./roficlip
+: 1719155842:0;n roficlip
+: 1719155871:0;ls
+: 1719155873:0;z
+: 1719157007:3;gall "add more conf"
+: 1719157043:0;ls
+: 1719157051:0;z myScripts
+: 1719157053:0;ls
+: 1719157056:0;n gclone
+: 1719157084:0;gall "add more conf"
+: 1719157120:0;n gclone
+: 1719157128:0;gall "add more conf"
+: 1719157133:0;fg
+: 1719157144:0;gall "add more conf"
+: 1719157149:0;fg
+: 1719157162:0;gall "add more conf"
+: 1719157173:0;rm gclone
+: 1719157176:0;gall "add more conf"
+: 1719157191:0;git add .
+: 1719157193:0;..
+: 1719157195:0;git add .
+: 1719157206:0;git commit -m "test"
+: 1719157210:3;git push
+: 1719157228:0;ls
+: 1719157231:0;z myScripts
+: 1719157232:0;ls
+: 1719157239:0;ls gclone
+: 1719157244:0;cat gclone
+: 1719157289:0;ls
+: 1719157294:0;z

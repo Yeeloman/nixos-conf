@@ -1,0 +1,39 @@
+: 1718189257:0;./roff
+: 1718189262:0;./rofi-gpaste 
+: 1718189388:0;nix-shell --run gpaste-gui
+: 1718189406:0;nix-shell -p gpaste-gui
+: 1718189510:0;gpaste-client
+: 1718189517:0;gpaste
+: 1718189551:0;nix-shell -p gome.gpaste
+: 1718189556:0;nix-shell -p gnome.gpaste
+: 1718189706:0;ls
+: 1718189935:0;ls
+: 1718189947:0;./rofi-gpaste 
+: 1718189963:0;gpaste-client ui
+: 1718190005:0;n rofi-gpaste 
+: 1718190099:0;./rofi-gpaste
+: 1718190137:0;echo $PATH
+: 1718190157:0;sudo cp rofi-gpaste /home/yeeloman/.local/bin
+: 1718190174:0;sudo cp rofi-gpaste /home/yeeloman/.local/bin/rofi-gpaste
+: 1718190227:0;sudo cp rofi-gpaste /run/current-system/sw/bin/rofi-gpaste
+: 1718190245:0;ls /home/yeeloman/.bin
+: 1718190272:0;mk /home/yeeloman/.bin
+: 1718190275:0;ls /home/yeeloman/.bin
+: 1718190286:0;sudo cp rofi-gpaste /home/yeeloman/.bin/rofi-gpaste
+: 1718190296:0;rofi-gpaste
+: 1718190473:0;n rofi-gpaste 
+: 1718190744:0;rofi-gpaste 
+: 1718191161:0;which rofi
+: 1718191169:0;ls
+: 1718191192:0;sudo cp rofi-gpaste /run/current-system/sw/bin/rofi-gpaste
+: 1718191209:0;ll /run/current-system/sw/bin/
+: 1718191217:0;ll /run/current-system/sw/
+: 1718191246:0;chmod u+w /run/current-system/sw/bin/
+: 1718191251:0;chmod u+w /run/current-system/sw/
+: 1718191255:0;chmod u+w /run/current-system/
+: 1718191266:0;chmod --help
+: 1718191289:0;chmod -R u+w /run/current-system/sw/bin/
+: 1718191325:0;sudo chmod -R u+w /run/current-system/sw/bin/
+: 1718191341:0;clear
+: 1718191693:0;rofi -show clipboard -modi clipboard:rofi-gpaste
+: 1718191711:0;rofi-gpaste 
